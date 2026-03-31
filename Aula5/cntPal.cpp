@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <list>
+#include <vector>
 using namespace std;
 struct palcnt{
     string palavra;
