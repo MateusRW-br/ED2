@@ -1,11 +1,10 @@
 #include <unordered_map>
 #include <iostream>
 
-
 using namespace std;
 
 int main(){
-
+    
     unordered_map<string,float> notas;
     notas["beltrano"] = 9.5;
     notas["fulaninho"] = 9.9;
@@ -25,6 +24,6 @@ int main(){
     }
     cout << "Tamanho da estrutura: " << notas.size() << endl << endl;
 
-
+                                                                                                                                    
     return 0;
 }
