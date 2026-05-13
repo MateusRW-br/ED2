@@ -12,7 +12,7 @@ struct Aluno{
 
 #define HASH_TABLE_SIZE 10
 list<Aluno> hashtable[HASH_TABLE_SIZE]; // Vetor de tamanho fixo que dentro se inclui list<Aluno>
-
+// funcao para ter indice
 int hash_function(int matricula){
     return matricula % HASH_TABLE_SIZE;
 }

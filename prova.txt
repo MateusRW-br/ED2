@@ -1,0 +1,4 @@
+arquivos
+tabelas hash 
+arvores
+unordered map and set
